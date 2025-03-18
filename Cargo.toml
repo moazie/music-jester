@@ -1,0 +1,9 @@
+[package]
+name = "music-jester"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+iced = {version = "0.9.0", features = ["image"]}
+rodio = { version = "0.20.1", features = ["symphonia-all"] }
+rfd = "0.15.3"
