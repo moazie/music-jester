@@ -211,12 +211,12 @@ impl Application for MusicJester {
         // Place album art above the controls
         let album_art_view = if let Some(ref bytes) = self.album_art {
             let handle = image::Handle::from_memory(bytes.clone());
-            image(handle).width(Length::Fixed(200.0)).height(Length::Fixed(200.0))
+            image(handle).width(Length::Fixed(270.0)).height(Length::Fixed(270.0))
         } else {
             // Load fallback image
             let fallback_bytes = include_bytes!("../assets/fallback_image.png").to_vec();
             let handle = image::Handle::from_memory(fallback_bytes);
-            image(handle).width(Length::Fixed(200.0)).height(Length::Fixed(200.0))
+            image(handle).width(Length::Fixed(270.0)).height(Length::Fixed(270.0))
         };
 
         // Display song title and artist if available
