@@ -122,4 +122,4 @@ Music Jester is more than a simple music player—it’s a polished, production-
 
     Asset bundling and platform-native dialog integration.
 
-It’s an excellent demonstration of what modern Rust can achieve beyond systems programming. As a CS50 final project, it’s both technically impressive and functionally practical, offering a user-friendly interface backed by high-performance and safe Rust code.
+It’s an excellent demonstration of what modern Rust can achieve beyond systems programming. As a CS50 final project, it’s both technically impressive and functionally practical, offering a user-friendly interface backed by high-performance and safe Rust code. :/
