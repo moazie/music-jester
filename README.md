@@ -1,7 +1,5 @@
 # Music Jester - CS50 Final Project
-### Video Demo: https://youtu.be/nyk0zcgRFqM
 ### 🎵 Music Jester: A Rust-Based GUI Audio Player:
-![Screenshot of Music Player.](screenie.png)
 
 Music Jester is a desktop audio player written in Rust, developed as a final project for CS50. It blends the power and safety of Rust with modern GUI components provided by the Iced framework, creating an elegant, interactive, and responsive music player. Music Jester allows users to browse local folders for audio files, display and play them, and even view embedded album art and metadata such as song title and artist.
 
